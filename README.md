@@ -27,6 +27,6 @@ ls -s
 Wyświetl zawartość pliku /etc/passwd posortowaną według numerów UID w kolejności od największego do najmniejszego.
 
 ```sh
-cat /etc/passwd | sort -r
+cat /etc/passwd | sort -t : -k3 -nr
 ```
 
